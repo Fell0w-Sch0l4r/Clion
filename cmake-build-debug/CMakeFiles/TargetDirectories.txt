@@ -1,3 +1,4 @@
 /home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles/cmake_testapp_EX23.dir
 /home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles/Clion.dir
+/home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles/cmake_testapp.dir

@@ -53,7 +53,8 @@ CMAKE_BINARY_DIR = /home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Clion.dir/all
+all: CMakeFiles/cmake_testapp_EX23.dir/all
+all: CMakeFiles/cmake_testapp.dir/all
 
 .PHONY : all
 
@@ -63,36 +64,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Clion.dir/clean
+clean: CMakeFiles/cmake_testapp_EX23.dir/clean
+clean: CMakeFiles/cmake_testapp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Clion.dir
+# Target rules for target CMakeFiles/cmake_testapp_EX23.dir
 
 # All Build rule for target.
-CMakeFiles/Clion.dir/all:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/depend
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Clion"
-.PHONY : CMakeFiles/Clion.dir/all
+CMakeFiles/cmake_testapp_EX23.dir/all:
+	$(MAKE) -f CMakeFiles/cmake_testapp_EX23.dir/build.make CMakeFiles/cmake_testapp_EX23.dir/depend
+	$(MAKE) -f CMakeFiles/cmake_testapp_EX23.dir/build.make CMakeFiles/cmake_testapp_EX23.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target cmake_testapp_EX23"
+.PHONY : CMakeFiles/cmake_testapp_EX23.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Clion.dir/rule: cmake_check_build_system
+CMakeFiles/cmake_testapp_EX23.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Clion.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmake_testapp_EX23.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Clion.dir/rule
+.PHONY : CMakeFiles/cmake_testapp_EX23.dir/rule
 
 # Convenience name for target.
-Clion: CMakeFiles/Clion.dir/rule
+cmake_testapp_EX23: CMakeFiles/cmake_testapp_EX23.dir/rule
 
-.PHONY : Clion
+.PHONY : cmake_testapp_EX23
 
 # clean rule for target.
-CMakeFiles/Clion.dir/clean:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/clean
-.PHONY : CMakeFiles/Clion.dir/clean
+CMakeFiles/cmake_testapp_EX23.dir/clean:
+	$(MAKE) -f CMakeFiles/cmake_testapp_EX23.dir/build.make CMakeFiles/cmake_testapp_EX23.dir/clean
+.PHONY : CMakeFiles/cmake_testapp_EX23.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cmake_testapp.dir
+
+# All Build rule for target.
+CMakeFiles/cmake_testapp.dir/all:
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/depend
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cmake_testapp"
+.PHONY : CMakeFiles/cmake_testapp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cmake_testapp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmake_testapp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fell0w-sch0l4r/CLionProjects/Clion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/cmake_testapp.dir/rule
+
+# Convenience name for target.
+cmake_testapp: CMakeFiles/cmake_testapp.dir/rule
+
+.PHONY : cmake_testapp
+
+# clean rule for target.
+CMakeFiles/cmake_testapp.dir/clean:
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/clean
+.PHONY : CMakeFiles/cmake_testapp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

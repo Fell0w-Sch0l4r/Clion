@@ -111,17 +111,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Clion
+# Target rules for targets named cmake_testapp_EX23
 
 # Build rule for target.
-Clion: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Clion
-.PHONY : Clion
+cmake_testapp_EX23: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmake_testapp_EX23
+.PHONY : cmake_testapp_EX23
 
 # fast build rule for target.
-Clion/fast:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/build
-.PHONY : Clion/fast
+cmake_testapp_EX23/fast:
+	$(MAKE) -f CMakeFiles/cmake_testapp_EX23.dir/build.make CMakeFiles/cmake_testapp_EX23.dir/build
+.PHONY : cmake_testapp_EX23/fast
+
+#=============================================================================
+# Target rules for targets named cmake_testapp
+
+# Build rule for target.
+cmake_testapp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmake_testapp
+.PHONY : cmake_testapp
+
+# fast build rule for target.
+cmake_testapp/fast:
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/build
+.PHONY : cmake_testapp/fast
+
+EX23.o: EX23.c.o
+
+.PHONY : EX23.o
+
+# target to build an object file
+EX23.c.o:
+	$(MAKE) -f CMakeFiles/cmake_testapp_EX23.dir/build.make CMakeFiles/cmake_testapp_EX23.dir/EX23.c.o
+.PHONY : EX23.c.o
+
+EX23.i: EX23.c.i
+
+.PHONY : EX23.i
+
+# target to preprocess a source file
+EX23.c.i:
+	$(MAKE) -f CMakeFiles/cmake_testapp_EX23.dir/build.make CMakeFiles/cmake_testapp_EX23.dir/EX23.c.i
+.PHONY : EX23.c.i
+
+EX23.s: EX23.c.s
+
+.PHONY : EX23.s
+
+# target to generate assembly for a file
+EX23.c.s:
+	$(MAKE) -f CMakeFiles/cmake_testapp_EX23.dir/build.make CMakeFiles/cmake_testapp_EX23.dir/EX23.c.s
+.PHONY : EX23.c.s
 
 main.o: main.c.o
 
@@ -129,7 +169,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/main.c.o
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +178,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/main.c.i
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +187,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/Clion.dir/build.make CMakeFiles/Clion.dir/main.c.s
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -157,8 +197,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... cmake_testapp_EX23"
 	@echo "... edit_cache"
-	@echo "... Clion"
+	@echo "... cmake_testapp"
+	@echo "... EX23.o"
+	@echo "... EX23.i"
+	@echo "... EX23.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
